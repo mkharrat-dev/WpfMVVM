@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EgDWRMsNFw=",
+  "dgSpecHash": "HXgeF2ChWTM=",
   "success": true,
-  "projectFilePath": "c:\\dev\\Sources\\MyWpfApp\\ViewModel\\ViewModel.csproj",
+  "projectFilePath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

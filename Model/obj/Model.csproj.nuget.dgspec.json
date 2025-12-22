@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj": {}
+    "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj": {}
   },
   "projects": {
-    "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj": {
+    "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj",
+        "projectPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Phoresis\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\Sources\\MyWpfApp\\Model\\obj\\",
+        "outputPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Phoresis\\AppData\\Roaming\\NuGet\\NuGet.Config",

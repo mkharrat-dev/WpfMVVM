@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aNlhatLxQmE=",
+  "dgSpecHash": "MS5Y4a+N2bI=",
   "success": true,
-  "projectFilePath": "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj",
+  "projectFilePath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

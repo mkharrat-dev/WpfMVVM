@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\Sources\\MyWpfApp\\ViewModel\\ViewModel.csproj",
+      "projectUniqueName": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\ViewModel.csproj",
       "projectName": "ViewModel",
-      "projectPath": "c:\\dev\\Sources\\MyWpfApp\\ViewModel\\ViewModel.csproj",
+      "projectPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\ViewModel.csproj",
       "packagesPath": "C:\\Users\\Phoresis\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\Sources\\MyWpfApp\\ViewModel\\obj\\",
+      "outputPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Phoresis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj": {
-              "projectPath": "c:\\dev\\Sources\\MyWpfApp\\Model\\Model.csproj"
+            "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj": {
+              "projectPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Model\\Model.csproj"
             }
           }
         }
