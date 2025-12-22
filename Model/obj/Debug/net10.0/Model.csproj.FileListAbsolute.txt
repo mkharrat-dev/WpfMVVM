@@ -1,0 +1,11 @@
+c:\dev\Sources\MyWpfApp\Model\bin\Debug\net10.0\Model.deps.json
+c:\dev\Sources\MyWpfApp\Model\bin\Debug\net10.0\Model.dll
+c:\dev\Sources\MyWpfApp\Model\bin\Debug\net10.0\Model.pdb
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.AssemblyInfoInputs.cache
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.AssemblyInfo.cs
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.csproj.CoreCompileInputs.cache
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.dll
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\refint\Model.dll
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\Model.pdb
+c:\dev\Sources\MyWpfApp\Model\obj\Debug\net10.0\ref\Model.dll

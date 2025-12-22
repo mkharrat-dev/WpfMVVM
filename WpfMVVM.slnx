@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Model/Model.csproj" />
+  <Project Path="MyWpfApp/View.csproj" />
+  <Project Path="ViewModel/ViewModel.csproj" />
+</Solution>
