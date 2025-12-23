@@ -1,68 +1,65 @@
 ﻿namespace ViewModel
 {
-    public class CustomerView : ObservableObject
+    public class CustomerView : ViewModelBase
     {
+        public CustomerView()
+        {
+            
+        }
         public int Id
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Id");
+                OnPropertyChanged("Id");
             }
         }
         public string Name
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Name");
+                OnPropertyChanged("Name");
             }
         }
         public string Address
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Address");
+                OnPropertyChanged("Address");
             }
         }
         public string PostalCode
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("PostalCode");
+                OnPropertyChanged("PostalCode");
             }
         }
         public string Country
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Country");
+                OnPropertyChanged("Country");
             }
         }
         public string Phone
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Phone");
+                OnPropertyChanged("Phone");
             }
         }
         public string Email
         {
-            get;
-            set
+            get; set
             {
                 field = value;
-                RaisePropertyChangedEvent("Email");
+                OnPropertyChanged("Email");
             }
         } = string.Empty;
     }
