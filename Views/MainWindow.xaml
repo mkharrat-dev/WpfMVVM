@@ -1,0 +1,102 @@
+﻿<Window x:Class="MyWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Title="MainWindow" Height="591" Width="1192"
+        xmlns:vm="clr-namespace:ViewModel;assembly=ViewModel" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="ThreeDBorderWindow">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Menu Height="20" VerticalAlignment="Top" >
+            <MenuItem Header="Fichier" >
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Liste de travail">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Test 1">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Modif. Courb">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Rappel">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Archive">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Ordinateur">
+                <MenuItem Header="Test 1"/>
+                <MenuItem Header="Test 1"/>
+            </MenuItem>
+            <MenuItem Header="Capillarys">
+                <MenuItem Header="Test 1">
+                    <MenuItem Header="Test 1"/>
+                    <MenuItem Header="Test 1"/>
+                </MenuItem>
+                <MenuItem Header="Fenetre">
+                    <MenuItem Header="Test 1"/>
+                    <MenuItem Header="Test 1"/>
+                </MenuItem>
+                <MenuItem Header="A propos">
+                    <MenuItem Header="Test 1"/>
+                    <MenuItem Header="Test 1"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid Margin="0,20,0,0" Height="70" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="0,1,0,1" Command="{Binding customers}">
+                <Image Source="/View;component/Resources/B1.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="67,1,0,1">
+                <Image Source="/View;component/Resources/B2.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="134,1,0,1">
+                <Image Source="/View;component/Resources/B3.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="201,1,0,1">
+                <Image Source="/View;component/Resources/B5.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="268,1,0,1">
+                <Image Source="/View;component/Resources/B6.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="335,1,0,1">
+                <Image Source="/View;component/Resources/B7.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="402,1,0,1">
+                <Image Source="/View;component/Resources/B8.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="469,1,0,1">
+                <Image Source="/View;component/Resources/B9.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="532,1,0,1">
+                <Image Source="/View;component/Resources/B10.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="599,1,0,1">
+                <Image Source="/View;component/Resources/B11.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="666,1,0,1">
+                <Image Source="/View;component/Resources/B12.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="733,1,0,1">
+                <Image Source="/View;component/Resources/B13.bmp" />
+            </Button>
+            <Button Width="67" Height="67" HorizontalAlignment="Left" Margin="800,1,0,1">
+                <Image Source="/View;component/Resources/B14.bmp" />
+            </Button>
+        </Grid>
+        <DockPanel Background="Snow" Margin="0,91,0,20">
+            <ContentControl x:Name="ActiveItem" Content="{Binding CurrentPage}"/>
+        </DockPanel>
+        <StatusBar Height="26" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

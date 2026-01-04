@@ -1,61 +1,26 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Windows.Input;
+using ViewModel.MyLib;
 
 namespace ViewModel
 {
-    public class MainViewModel : ViewModelBase
+    public class MainViewModel : ObservableObject
     {
-        private ObservableCollection<CustomerView> _customers;
-        private ICommand _SubmitCommand;
-        public MainViewModel()
-        {
-            Customer = new CustomerView();
-            Customers=new ObservableCollection<CustomerView>();
-            LoadCustomers();
-        }
-
-        public CustomerView Customer
+        private IServiceProvider ServiceProvider = null!;
+        public object CurrentPage
         {
             get;
+            set => SetProperty(ref field, value);
+        }
 
-            set
-            {
-                field = value;
-                OnPropertyChanged("Customer");
-            }
-        }
-        public ObservableCollection<CustomerView> Customers
+        public MainViewModel(IServiceProvider serviceProvider)
         {
-            get => _customers;
+            ServiceProvider=serviceProvider;
 
-            set
-            {
-                _customers = value;
-                OnPropertyChanged("Customers");
-            }
         }
-        public ICommand LoadCommand
-        {
-            get
-            {
-                if (_SubmitCommand == null)
-                {
-                    _SubmitCommand = new RelayCommand(param => this.LoadCustomers(), (_customers) => { return Customers != null; });
-                }
-                return _SubmitCommand;
-            }
-        }
-        private void LoadCustomers()
-        {
-            Customers = new ObservableCollection<CustomerView>
-                    {
-                        new CustomerView { Id = 1, Name = "Alice", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" },
-                        new CustomerView { Id = 2, Name = "Bob", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" },
-                        new CustomerView { Id = 3, Name = "Charlie", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" },
-                        new CustomerView { Id = 3, Name = "Sebia", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" },
-                        new CustomerView { Id = 3, Name = "ECM", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" },
-                        new CustomerView { Id = 3, Name = "Altec-Consulting", Address = "",PostalCode="",Country="France",Email="xx.yy@test.com",Phone="06.xx.xx.xx.xx" }
-                    };
-        }
+        public ICommand customers => new RelayCommand(() => CurrentPage = ServiceProvider.GetService(typeof(CustomersView)) as CustomersView);
     }
+
 }

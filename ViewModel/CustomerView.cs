@@ -1,66 +1,43 @@
-﻿namespace ViewModel
+﻿using ViewModel.MyLib;
+
+namespace ViewModel
 {
-    public class CustomerView : ViewModelBase
+    public class CustomerView : ObservableObject
     {
-        public CustomerView()
-        {
-            
-        }
         public int Id
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Id");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string Name
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Name");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string Address
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Address");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string PostalCode
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("PostalCode");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string Country
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Country");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string Phone
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Phone");
-            }
+            get;
+            set => SetProperty(ref field, value);
         }
         public string Email
         {
-            get; set
-            {
-                field = value;
-                OnPropertyChanged("Email");
-            }
+            get;
+            set => SetProperty(ref field, value);
         } = string.Empty;
     }
 }
