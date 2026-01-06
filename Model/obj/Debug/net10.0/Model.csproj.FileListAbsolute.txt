@@ -20,3 +20,15 @@ D:\source\MyWpfApp\Model\obj\Debug\net10.0\Model.dll
 D:\source\MyWpfApp\Model\obj\Debug\net10.0\refint\Model.dll
 D:\source\MyWpfApp\Model\obj\Debug\net10.0\Model.pdb
 D:\source\MyWpfApp\Model\obj\Debug\net10.0\ref\Model.dll
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\bin\Debug\net10.0\Model.deps.json
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\bin\Debug\net10.0\Model.dll
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\bin\Debug\net10.0\Model.pdb
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.AssemblyInfoInputs.cache
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.AssemblyInfo.cs
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.csproj.CoreCompileInputs.cache
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.sourcelink.json
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.dll
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\refint\Model.dll
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\Model.pdb
+C:\dev\Sources\MyWpfApp\WpfMVVM\Model\obj\Debug\net10.0\ref\Model.dll
