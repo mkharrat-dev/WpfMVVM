@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|solutionrelative:viewapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|solutionrelative:viewapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewapp\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{63D19F0B-5FE6-825A-069E-3C13C54012F7}|ViewApp\\ViewApp.csproj|solutionrelative:viewapp\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C73E000-1E34-49D1-8E2A-A7DC027774A7}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F099EF83-E570-F1A7-D403-3F0F186F11BD}|ViewModel\\ViewModel.csproj|c:\\dev\\sources\\mywpfapp\\wpfmvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F099EF83-E570-F1A7-D403-3F0F186F11BD}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +14,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ViewApp\\MainWindow.xaml",
-              "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\MainWindow.xaml*",
-              "RelativeToolTip": "ViewApp\\MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-23T09:35:36.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.xaml",
-              "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\Customer.xaml",
-              "RelativeDocumentMoniker": "ViewApp\\Customer.xaml",
-              "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\Customer.xaml",
-              "RelativeToolTip": "ViewApp\\Customer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-23T09:48:43.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ViewApp\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ViewApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:42:27.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "ViewModel\\ViewModelBase.cs",
-              "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\ViewModelBase.cs",
-              "RelativeToolTip": "ViewModel\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:36:01.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "ViewModel\\RelayCommand.cs",
-              "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\RelayCommand.cs",
-              "RelativeToolTip": "ViewModel\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:35:58.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:35:50.897Z"
+              "WhenOpened": "2026-01-06T09:55:01.5Z",
+              "EditorCaption": ""
             }
           ]
         },
