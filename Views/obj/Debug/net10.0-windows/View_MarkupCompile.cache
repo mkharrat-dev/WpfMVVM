@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\source\MyWpfApp\Views\obj\Debug\net10.0-windows\
+C:\dev\Sources\MyWpfApp\WpfMVVM\Views\obj\Debug\net10.0-windows\
 View
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\source\MyWpfApp\Views\App.xaml
+C:\dev\Sources\MyWpfApp\WpfMVVM\Views\App.xaml
 4551094951
 
 7-1488729308
-210169945557
+210-1006041230
 Customer.xaml;Customers.xaml;MainWindow.xaml;Test1.xaml;
 
 False
