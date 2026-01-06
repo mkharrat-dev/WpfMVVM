@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gbgkZcQATfU=",
+  "dgSpecHash": "j8Ebrv76BP4=",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\WpfMVVM\\Views\\View.csproj",
+  "projectFilePath": "C:\\dev\\Sources\\MyWpfApp\\WpfMVVM\\Views\\View.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mohamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.1\\microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
-    "C:\\Users\\Mohamed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+    "C:\\Users\\Phoresis\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.1\\microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Phoresis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
   ],
   "logs": []
 }
