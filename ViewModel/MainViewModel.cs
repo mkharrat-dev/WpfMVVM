@@ -17,10 +17,10 @@ namespace ViewModel
 
         public MainViewModel(IServiceProvider serviceProvider)
         {
-            ServiceProvider=serviceProvider;
+            ServiceProvider = serviceProvider;
 
         }
-        public ICommand customers => new RelayCommand(() => CurrentPage = ServiceProvider.GetService(typeof(CustomersView)) as CustomersView);
+        //public ICommand customers => new RelayCommand(() => CurrentPage = ServiceProvider.GetService(typeof(CustomersView)) as CustomersView);
     }
 
 }
